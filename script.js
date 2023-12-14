@@ -1,4 +1,9 @@
-let palabra = "APPLE";
+// Lista de palabras posibles
+const palabras = ["APPLE", "BANAN", "GRAPE", "LEMON", "MANGO"];
+
+// Seleccionar una palabra al azar
+let palabra = palabras[Math.floor(Math.random() * palabras.length)];
+
 let intentos = 6;
 let intentosRestantes = intentos;
 
